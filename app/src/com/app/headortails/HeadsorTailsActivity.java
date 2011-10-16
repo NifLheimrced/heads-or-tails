@@ -60,41 +60,7 @@ public class HeadsorTailsActivity extends AndroidApplication {
         
         vc = new ViewCoin();
         initialize(vc, false);
-        
-        /*
-        setContentView(R.layout.main);
-        
-        // Create a LinearLayout in which to add the ImageView
-        mLinearLayout = new LinearLayout(this);
-
-        // Instantiate an ImageView and define its properties
-        i = new ImageView(this);
-        i.setOnTouchListener(new View.OnTouchListener() {
-			
-			public boolean onTouch(View v, MotionEvent event) {
-				try {
-				new Thread(new Runnable() {
-					AnimationDrawable fa = (AnimationDrawable) i.getBackground();
-				    public void run() {				    	
-				        // Start the animation (looped playback by default).
-				        fa.start();	     
-				    }
-				  }).start();
-				Thread.sleep(20*50);
-				} catch (Exception ex) { }
-				return true;
-			}
-		});
-        i.setBackgroundResource(R.anim.hot_coin_rotate);
-        i.setAdjustViewBounds(true); // set the ImageView bounds to match the Drawable's dimensions
-        i.setLayoutParams(new Gallery.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
-        
-        // Add the ImageView to the layout and set the layout as the content view
-        mLinearLayout.addView(i);
-        setContentView(mLinearLayout);
-        // Get the background, which has been compiled to an AnimationDrawable object.
- 
-        */
+      
     }
 }
 

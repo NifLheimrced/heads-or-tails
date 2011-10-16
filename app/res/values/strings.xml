@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Heads or Tails for Android</string>
     <string name="desc">Heads or Tails for Android v 0.1 - K. Stopa 2011</string>
+    <string name="ini_credit">K. Stopa © 2011</string>
 </resources>
